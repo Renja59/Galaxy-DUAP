@@ -83,10 +83,6 @@ ul.navlist {
   color: #fff;
 }
 
-/*section {
-  min-height: 115vh;
-}*/
-
 .parallax-home {
   position: relative;
   display: flex;
@@ -146,24 +142,13 @@ ul.navlist {
   position: relative;
 }
 
-/*.contente {
-  width: 100%;
-  height: calc(100vh);
-  background: url(Galaxy-Home/DUAP-Background.png) no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1002;
-}*/
-
 .parallax {
 
   height: 100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*following just for demo purposes to add height and top padding*/
   height: 200vh;
   padding-top: 100vh;
 }
@@ -206,7 +191,7 @@ p {
 .card {
   border-radius: 10px;
   height: 350px;
-  width: 157px;
+  width: 187px;
   background-color: white;
   padding: 15px;
   display: flex;
@@ -214,15 +199,13 @@ p {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 237vh;
+  top: 205vh;
   left: 2vh;
-  z-index: -1;
 }
 
 .card:hover {
   cursor: pointer;
-  top: 217vh;
-  z-index: 1000;
+  box-shadow: 0 0 1rem #d92020;
 }
 
 .card img {
