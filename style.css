@@ -25,7 +25,11 @@
 body {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
-  background-color: #000000;
+  background-image: url("Galaxy-Home/Galaxy_DUAP_Background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #000000;*/
   color: #fff;
   overflow-x: hidden;
 }
@@ -40,6 +44,7 @@ header {
   align-items: center;
   width: 100%;
   z-index: 1001;
+  position: fixed;
 }
 
 .logo {
@@ -48,6 +53,8 @@ header {
   text-decoration: none;
   font-weight: 600;
 }
+
+
 
 ul.navlist {
   display: flex;
@@ -149,7 +156,7 @@ ul.navlist {
 }*/
 
 .parallax {
-  background-image: url("Galaxy-Home/Galaxy_DUAP_Background.png");
+
   height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -174,6 +181,7 @@ ul.navlist {
 }
 
 h1 {
+
   font-family: Poppins;
   color: #fff;
 }
@@ -193,4 +201,48 @@ p {
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.card {
+  border-radius: 10px;
+  height: 350px;
+  width: 157px;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 237vh;
+  left: 2vh;
+  z-index: -1;
+}
+
+.card:hover {
+  cursor: pointer;
+  top: 217vh;
+  z-index: 1000;
+}
+
+.card img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card h1 {
+  color: black;
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+.card p {
+  color: black;
+  font-size: 14px;
+  margin: 25px auto;
+  text-align: center;
 }
