@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  height: .1rem;
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d92020;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dfded8;
+  border-radius: 5rem0;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 40px 22%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1001;
+  position: fixed;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #d92020;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+ul.navlist {
+  display: flex;
+  align-items: center;
+}
+
+.navlist li {
+  margin-left: 1rem;
+}
+
+.navlist li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 2px 12px;
+  border: 2px solid #d92020;
+  border-radius: 25px;
+  transition: all .3s ease;
+}
+
+.navlist li a:hover,
+.navlist li a.active {
+  box-shadow: 0 0 1rems #d92020;
+  background: rgba(217, 32, 32, 0.4);
+  color: #fff;
+}
+
+p {
+  font-family: Poppins;
+  line-height: 30px;
+  color: #fff;
+  font-weight: lighter;
+}
