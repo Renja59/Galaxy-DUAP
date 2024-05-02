@@ -94,19 +94,32 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 300px;
+  width: 700px;
+  height: 500px;
   box-shadow: 0 0 2rem #d92020;
   border-radius: 10px;
-  margin-top: 7%;
-  margin-left: 5%;
+  position: absolute;
+  top: 25vh;
+  /* margin-top: 7%;
+  margin-left: 5%;*/
+}
+
+#videos {
+  margin: auto;
+  margin-left: 7%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #text {
-  margin: 60px auto;
+  margin: auto;
   position: absolute;
-  margin-left: 23%;
-  top: 13%;
+  margin-left: 47%;
+  top: 27%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #text2 {
@@ -146,4 +159,9 @@ p {
 
 #text h1 {
   font-size: 37px;
+  text-align: center;
+}
+
+iframe {
+  border-radius: 10px;
 }
