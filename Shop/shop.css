@@ -25,11 +25,11 @@
 body {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
-  background-image: url("Images/BG_Shop.png");
+  background-image: url("../Galaxy-Home/Galaxy_DUAP_Background.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #1a1919;
+  background-color: #000000;
   color: #fff;
   overflow-x: hidden;
 }

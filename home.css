@@ -95,10 +95,46 @@ ul.navlist {
   position: absolute;
 }
 
+.planete #p1 {
+  position: absolute;
+  left: 23%;
+  top: 67%;
+}
+
+.planete #p2 {
+  position: absolute;
+  top: 75%;
+  lefT: 13%;
+}
+
+.planete #p3 {
+  position: absolute;
+  top: 70%;
+  left: -2%;
+}
+
 .planete #p4 {
   position: absolute;
   left: 10%;
   top: 20%;
+}
+
+.planete #p5 {
+  position: absolute;
+  left: 69%;
+  top: 29%;
+}
+
+.planete #p6 {
+  position: absolute;
+  top: -2%;
+  left: 18%;
+}
+
+.planete #satelite {
+  position: absolute;
+  top: 0%;
+  left: 70%;
 }
 
 .planete:hover #p4 {
@@ -119,13 +155,6 @@ ul.navlist {
   top: 20%;
 }
 
-.contente #p1 {
-  position: absolute;
-  left: 10%;
-  top: 20%;
-}
-
-
 .content {
   width: 100%;
   height: auto;
@@ -137,7 +166,7 @@ ul.navlist {
 .hero-back {
   width: 100%;
   height: calc(100vh);
-  background: url(Galaxy-Home/Galaxy_DUAP_Background.png);
+  background: rgba(255, 255, 255, 0);
   background-size: cover;
   position: relative;
 }
