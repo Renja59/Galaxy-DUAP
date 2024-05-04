@@ -19,7 +19,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #dfded8;
-  border-radius: 5rem0;
+  border-radius: 5rem;
 }
 
 body {
@@ -96,7 +96,7 @@ p {
   justify-content: center;
   width: 700px;
   height: 500px;
-  box-shadow: 0 0 2rem #d92020;
+  box-shadow: 0 0 4rem #d92020;
   border-radius: 10px;
   position: absolute;
   top: 25vh;
@@ -164,4 +164,12 @@ p {
 
 iframe {
   border-radius: 10px;
+}
+
+#galaxy {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
