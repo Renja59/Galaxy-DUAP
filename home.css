@@ -228,13 +228,13 @@ p {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 205vh;
+  top: 215vh;
   left: -17vh;
 }
 
 .card:hover {
   cursor: pointer;
-  box-shadow: 0 0 2rem #d92020;
+  box-shadow: 0 0 4rem #d92020;
   left: 2vh;
 }
 
