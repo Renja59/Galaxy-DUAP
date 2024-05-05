@@ -219,7 +219,7 @@ p {
 
 .card {
   border-radius: 10px;
-  height: 350px;
+  height: 300px;
   width: 187px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
@@ -229,12 +229,13 @@ p {
   justify-content: center;
   position: absolute;
   top: 205vh;
-  left: 2vh;
+  left: -17vh;
 }
 
 .card:hover {
   cursor: pointer;
   box-shadow: 0 0 2rem #d92020;
+  left: 2vh;
 }
 
 .card img {
