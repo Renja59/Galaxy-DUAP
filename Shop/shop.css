@@ -91,12 +91,13 @@ img.DeadOps,
 img.Pyjama {
   /*border: solid #ffffff;*/
   border-radius: 20px;
-  padding: 10px;
+  /*padding: 10px;*/
   float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
+  box-shadow: 0 0 4rem #d92020;
 }
 
 .singles {
