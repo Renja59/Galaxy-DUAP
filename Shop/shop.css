@@ -89,14 +89,11 @@ img.FreestyleWTF2,
 img.Rafale,
 img.DeadOps,
 img.Pyjama {
-  /*border: solid #ffffff;*/
   border-radius: 20px;
-  /*padding: 10px;*/
   float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*margin-top: 5%;*/
   box-shadow: 0 0 4rem #d92020;
 }
 
@@ -105,7 +102,6 @@ img.Pyjama {
   margin-top: 8%;
   margin-left: 15%;
   border-radius: 10px;
-  /*background-image: url("Images/Singles/Death-Note_Flou.png");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: 250px 250px;

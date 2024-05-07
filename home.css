@@ -116,7 +116,7 @@ ul.navlist {
 .planete #p4 {
   position: absolute;
   left: 10%;
-  top: 20%;
+  top: 30%;
 }
 
 .planete #p5 {
@@ -137,22 +137,11 @@ ul.navlist {
   left: 70%;
 }
 
-.planete:hover #p4 {
-  cursor: pointer;
-  margin-top: 6%;
-}
-
 .planete {
   display: flex;
   justify-content: left;
   align-items: center;
   z-index: 1001;
-}
-
-.planete #lg-yt {
-  position: absolute;
-  left: 12%;
-  top: 20%;
 }
 
 .content {
@@ -219,8 +208,8 @@ p {
 
 .card {
   border-radius: 10px;
-  height: 300px;
-  width: 187px;
+  height: 330px;
+  width: 220px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
   display: flex;
@@ -228,21 +217,19 @@ p {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 215vh;
-  left: -17vh;
+  top: 212vh;
+  left: 58%;
 }
 
 .card:hover {
   cursor: pointer;
   box-shadow: 0 0 4rem #d92020;
-  left: 2vh;
 }
 
 .card img {
-  height: 50%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
   border-radius: 7px;
   position: relative;
 }

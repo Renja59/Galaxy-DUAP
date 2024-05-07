@@ -97,12 +97,14 @@ p {
   justify-content: center;
   width: 700px;
   height: 500px;
-  box-shadow: 0 0 4rem #d92020;
   border-radius: 10px;
-  position: absolute;
-  top: 25vh;
-  /* margin-top: 7%;
-  margin-left: 5%;*/
+  position: relative;
+  margin-top: 25vh;
+  /*top: 25vh;*/
+}
+
+.container2:hover {
+  box-shadow: 0 0 4rem #d92020;
 }
 
 #videos {
@@ -126,40 +128,45 @@ p {
 #text2 {
   margin: 60px auto;
   position: absolute;
-  margin-left: 23%;
-  top: 59%;
+  margin-left: 47%;
+  top: 99%;
 }
 
 #text3 {
   margin: 60px auto;
   position: absolute;
-  margin-left: 23%;
-  top: 103%;
+  margin-left: 47%;
+  top: 178%;
 }
 
 #text4 {
   margin: 60px auto;
   position: absolute;
-  margin-left: 23%;
-  top: 149%;
+  margin-left: 47%;
+  top: 255%;
 }
 
 #text5 {
   margin: 60px auto;
   position: absolute;
-  margin-left: 23%;
-  top: 195%;
+  margin-left: 47%;
+  top: 332%;
 }
 
 #text6 {
   margin: 60px auto;
   position: absolute;
-  margin-left: 23%;
-  top: 243%;
+  margin-left: 47%;
+  top: 409%;
 }
 
-#text h1 {
-  font-size: 37px;
+#text,
+#text2,
+#text3,
+#text4,
+#text5,
+#text6, h1 {
+  font-size: 22px;
   text-align: center;
 }
 
